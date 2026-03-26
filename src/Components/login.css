@@ -1,0 +1,77 @@
+/* Page background */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f3f3f3; */
+}
+
+/* Login box */
+.login-box {
+  background: white;
+  padding: 25px;
+  width: 320px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Heading */
+.login-box h2 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+/* Labels */
+.login-box label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* Inputs */
+.login-box input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #a6a6a6;
+  border-radius: 4px;
+  outline: none;
+}
+
+.login-box input:focus {
+  border-color: #f0c14b;
+  box-shadow: 0 0 3px #f0c14b;
+}
+
+/* Button */
+.login-box button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background: #ffd814;
+  border: 1px solid #fcd200;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-box button:hover {
+  background: #f7ca00;
+}
+
+/* Signup text */
+.signup-text {
+  margin-top: 15px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.signup-text a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}

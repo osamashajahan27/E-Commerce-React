@@ -1,0 +1,28 @@
+.products {
+  margin: 15px;
+  width: 95vw;
+  /* border: 2px solid black; */
+  justify-content: center;
+  /* align-items: center; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.product {
+  flex-grow: 1;
+  padding: 5px;
+  align-items: center;
+}
+.navbarFull {
+  background-color: rgb(102, 165, 165);
+}
+
+.home {
+  background-image: url("../images/ChatGPT\ Image\ Feb\ 28\,\ 2026\,\ 11_43_07\ PM.png");
+  background-size: cover; /* Covers full screen */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* No repeat */
+  height: 100vh;
+  margin: 0;
+ 
+}
